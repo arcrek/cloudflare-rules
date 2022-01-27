@@ -3,7 +3,7 @@ This rules is optimized for `Free plan`, which only have 5 rules available.
 
 #### Rule 1: Allow Bots:
 * Action: Allow
-* ``` (cf.client.bot) or (ip.geoip.asnum eq 2635) or (ip.src eq 54.68.32.247) or (ip.src eq 44.235.211.232) or (ip.src eq 54.71.203.174) or (ip.geoip.asnum eq 32934) or (ip.geoip.asnum eq 63293) or (ip.geoip.asnum eq 36459) ```
+* ` (cf.client.bot) or (ip.geoip.asnum eq 2635) or (ip.src eq 54.68.32.247) or (ip.src eq 44.235.211.232) or (ip.src eq 54.71.203.174) or (ip.geoip.asnum eq 32934) or (ip.geoip.asnum eq 63293) or (ip.geoip.asnum eq 36459) `
 
 #### Rule 2: Block request from botnets, china, tor, random query string ddos
 * Action: Block

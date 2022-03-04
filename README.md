@@ -15,4 +15,4 @@ This rules is optimized for `Free plan`, which only have 5 rules available.
 
 #### Rule 4: Allow valid query string
 * Action: Allows
-* ` (http.request.uri eq "" and ip.geoip.country eq "VN") or (http.request.uri contains "?f" and ip.geoip.country eq "VN") or (http.request.uri contains "?a" and ip.geoip.country eq "VN") or (http.request.uri contains "?u" and ip.geoip.country eq "VN") or (http.request.uri eq "" and ip.geoip.country ne "VN") or (http.request.uri contains "?f" and ip.geoip.country ne "VN") or (http.request.uri contains "?a" and ip.geoip.country ne "VN") or (http.request.uri contains "?u" and ip.geoip.country ne "VN") `
+* ` (http.request.uri eq "") or (http.request.uri contains "?f") or (http.request.uri contains "?a") or (http.request.uri contains "?u") `
